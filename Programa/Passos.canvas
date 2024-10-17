@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"5d553e773139c8c8","type":"text","text":"Step 1 - Criar um aletorizador para uma lista","x":-560,"y":-360,"width":250,"height":105,"color":"1"},
+		{"id":"ea310c2b0f171500","type":"text","text":"Step 2 - Conectar a API do Spotify","x":-560,"y":-100,"width":250,"height":60},
+		{"id":"6b770d15f5e3695e","type":"text","text":"Step 1.1 - Aleatorizar os itens na lista (Um sorted aleatório na lista)","x":-240,"y":-451,"width":250,"height":91,"color":"1"},
+		{"id":"93e2d467bf0e2e6b","type":"text","text":"Step 1.2 - Gravar a lista sorteada\n","x":-220,"y":-315,"width":250,"height":75,"color":"1"},
+		{"id":"d5133a54520f46b7","type":"file","file":"Cores e seus significados em meu código.md","x":-1020,"y":-542,"width":295,"height":302},
+		{"id":"d8140cfad420bd2c","x":-180,"y":-170,"width":250,"height":100,"type":"text","text":"Step 2.1 - Acessar a API e conseguir pesquisar uma música"},
+		{"id":"a21bbf92fc45c06e","x":-155,"y":18,"width":250,"height":102,"type":"text","text":"Step 2.1.1 - Conseguir identificar os retornos da pesquisa"},
+		{"id":"a70483e9a58cf80e","x":-173,"y":178,"width":250,"height":60,"type":"text","text":"Step 2.2 - Pesquisar álbuns na API"},
+		{"id":"d3bfbc01477fc142","x":148,"y":240,"width":250,"height":60,"type":"text","text":"Step 2.2.1 - Identificar os retornos da pesquisa"},
+		{"id":"d3daea7922443d7f","x":-249,"y":296,"width":250,"height":60,"type":"text","text":"Retornos:\n{ }"},
+		{"id":"1197cb70c5edb8b3","x":176,"y":-61,"width":250,"height":60,"type":"text","text":"Retornos: { }"},
+		{"id":"9fe33bfef7107f79","x":-656,"y":91,"width":250,"height":87,"type":"text","text":"Step 3 - Salvar os retornos desejados em uma lista\n"}
+	],
+	"edges":[
+		{"id":"23a85008f36ddf41","fromNode":"5d553e773139c8c8","fromSide":"bottom","toNode":"ea310c2b0f171500","toSide":"top"},
+		{"id":"e2d6799b365e0eb3","fromNode":"5d553e773139c8c8","fromSide":"right","toNode":"6b770d15f5e3695e","toSide":"left","color":"1"},
+		{"id":"0d2ec2c47dd74292","fromNode":"5d553e773139c8c8","fromSide":"right","toNode":"93e2d467bf0e2e6b","toSide":"left","color":"1"},
+		{"id":"905879dce125a3b0","fromNode":"ea310c2b0f171500","fromSide":"right","toNode":"d8140cfad420bd2c","toSide":"left"},
+		{"id":"46fa4e23310591f6","fromNode":"d8140cfad420bd2c","fromSide":"bottom","toNode":"a21bbf92fc45c06e","toSide":"top"},
+		{"id":"21886e76d27c1798","fromNode":"ea310c2b0f171500","fromSide":"right","toNode":"a70483e9a58cf80e","toSide":"left"},
+		{"id":"e94d20936238345f","fromNode":"a70483e9a58cf80e","fromSide":"right","toNode":"d3bfbc01477fc142","toSide":"left"},
+		{"id":"d444d0266a2257e1","fromNode":"d3bfbc01477fc142","fromSide":"left","toNode":"d3daea7922443d7f","toSide":"right"},
+		{"id":"309e8cc2aa677d12","fromNode":"a21bbf92fc45c06e","fromSide":"right","toNode":"1197cb70c5edb8b3","toSide":"left"},
+		{"id":"b54b87de8aacff38","fromNode":"ea310c2b0f171500","fromSide":"bottom","toNode":"9fe33bfef7107f79","toSide":"top"}
+	]
+}
